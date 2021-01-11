@@ -4,4 +4,14 @@
    <name>default</name>
    <tag></tag>
    <defaultProfile>true</defaultProfile>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Bearer 963bf4b3f6812682e7e3539857c38d754cb75d77'</initValue>
+      <name>access_token</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'http://34.123.127.154/symfony/web/index.php'</initValue>
+      <name>baseURL</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>

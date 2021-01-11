@@ -10,7 +10,7 @@
    <followRedirects>false</followRedirects>
    <httpBody></httpBody>
    <httpBodyContent>{
-  &quot;text&quot;: &quot;{\n  \t\&quot;id\&quot;:\&quot;21\&quot;,\n\t\&quot;sequenceNumber\&quot;:\&quot;3\&quot;\n}&quot;,
+  &quot;text&quot;: &quot;{\n  \t\&quot;id\&quot;:\&quot;21\&quot;,\n\t\&quot;sequenceNumber\&quot;:\&quot;1\&quot;\n}&quot;,
   &quot;contentType&quot;: &quot;application/json&quot;,
   &quot;charset&quot;: &quot;UTF-8&quot;
 }</httpBodyContent>
@@ -27,13 +27,13 @@
       <matchCondition>equals</matchCondition>
       <name>Authorization</name>
       <type>Main</type>
-      <value>bearer 1175bc2143be3959c914896594d819f5c52bdda6</value>
+      <value>${GlobalVariable.access_token}</value>
    </httpHeaderProperties>
    <katalonVersion>7.7.2</katalonVersion>
    <maxResponseSize>-1</maxResponseSize>
    <migratedVersion>5.4.1</migratedVersion>
    <restRequestMethod>DELETE</restRequestMethod>
-   <restUrl>http://34.123.127.154/symfony/web/index.php/api/v1/employee/21/dependent</restUrl>
+   <restUrl>${GlobalVariable.baseURL}/api/v1/employee/21/dependent</restUrl>
    <serviceType>RESTful</serviceType>
    <soapBody></soapBody>
    <soapHeader></soapHeader>

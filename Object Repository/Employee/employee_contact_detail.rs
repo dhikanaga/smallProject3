@@ -27,13 +27,13 @@
       <matchCondition>equals</matchCondition>
       <name>Authorization</name>
       <type>Main</type>
-      <value>bearer 235f3227845f45496ec0437f71b777b2487dc168</value>
+      <value>${GlobalVariable.access_token}</value>
    </httpHeaderProperties>
    <katalonVersion>7.7.2</katalonVersion>
    <maxResponseSize>-1</maxResponseSize>
    <migratedVersion>5.4.1</migratedVersion>
    <restRequestMethod>GET</restRequestMethod>
-   <restUrl>http://34.123.127.154/symfony/web/index.php/api/v1/employee/19/contact-detail</restUrl>
+   <restUrl>${GlobalVariable.baseURL}/api/v1/employee/19/contact-detail</restUrl>
    <serviceType>RESTful</serviceType>
    <soapBody></soapBody>
    <soapHeader></soapHeader>

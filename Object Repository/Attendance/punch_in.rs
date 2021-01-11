@@ -40,13 +40,13 @@
       <matchCondition>equals</matchCondition>
       <name>Authorization</name>
       <type>Main</type>
-      <value>Bearer b4138fcb18848a588948fc3feb2718fab1cc4bc9</value>
+      <value>${GlobalVariable.access_token}</value>
    </httpHeaderProperties>
    <katalonVersion>7.7.2</katalonVersion>
    <maxResponseSize>-1</maxResponseSize>
    <migratedVersion>5.4.1</migratedVersion>
    <restRequestMethod>POST</restRequestMethod>
-   <restUrl>http://34.123.127.154/symfony/web/index.php//api/v1/employee/20/punch-in</restUrl>
+   <restUrl>${GlobalVariable.baseURL}/api/v1/employee/20/punch-in</restUrl>
    <serviceType>RESTful</serviceType>
    <soapBody></soapBody>
    <soapHeader></soapHeader>
