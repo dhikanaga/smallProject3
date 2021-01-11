@@ -40,13 +40,13 @@
       <matchCondition>equals</matchCondition>
       <name>Authorization</name>
       <type>Main</type>
-      <value>Bearer 260c824f1fdba9f28b136d35f83488aa42567f8c</value>
+      <value>Bearer b4138fcb18848a588948fc3feb2718fab1cc4bc9</value>
    </httpHeaderProperties>
    <katalonVersion>7.7.2</katalonVersion>
    <maxResponseSize>-1</maxResponseSize>
    <migratedVersion>5.4.1</migratedVersion>
    <restRequestMethod>POST</restRequestMethod>
-   <restUrl>http://34.123.127.154/symfony/web/index.php//api/v1/employee/20/punch-out</restUrl>
+   <restUrl>http://34.123.127.154/symfony/web/index.php//api/v1/employee/20/punch-in</restUrl>
    <serviceType>RESTful</serviceType>
    <soapBody></soapBody>
    <soapHeader></soapHeader>
@@ -65,8 +65,13 @@ import com.kms.katalon.core.webservice.verification.WSResponseManager
 import groovy.json.JsonSlurper
 import internal.GlobalVariable as GlobalVariable
 
+
+
 RequestObject request = WSResponseManager.getInstance().getCurrentRequest()
 
-ResponseObject response = WSResponseManager.getInstance().getCurrentResponse()</verificationScript>
+ResponseObject response = WSResponseManager.getInstance().getCurrentResponse()
+
+
+//WS.verifyElementPropertyValue(response, 'success', &quot;Successfully Punched In&quot;)</verificationScript>
    <wsdlAddress></wsdlAddress>
 </WebServiceRequestEntity>
