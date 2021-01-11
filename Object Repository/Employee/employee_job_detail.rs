@@ -23,7 +23,7 @@
       <matchCondition>equals</matchCondition>
       <name>Authorization</name>
       <type>Main</type>
-      <value>bearer 11c7dcbdacc8ccd174d6a1996c39f2c339fb2132</value>
+      <value>bearer 235f3227845f45496ec0437f71b777b2487dc168</value>
    </httpHeaderProperties>
    <katalonVersion>7.7.2</katalonVersion>
    <maxResponseSize>-1</maxResponseSize>
@@ -50,6 +50,7 @@ import internal.GlobalVariable as GlobalVariable
 
 RequestObject request = WSResponseManager.getInstance().getCurrentRequest()
 
-ResponseObject response = WSResponseManager.getInstance().getCurrentResponse()</verificationScript>
+ResponseObject response = WSResponseManager.getInstance().getCurrentResponse()
+</verificationScript>
    <wsdlAddress></wsdlAddress>
 </WebServiceRequestEntity>

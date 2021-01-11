@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_delete_employee_dependents</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a6ac12ec-5e54-47aa-adaa-c6ed4121036b</testCaseGuid>
+</TestCaseEntity>

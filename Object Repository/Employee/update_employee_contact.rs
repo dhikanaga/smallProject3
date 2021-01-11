@@ -10,7 +10,7 @@
    <followRedirects>false</followRedirects>
    <httpBody></httpBody>
    <httpBodyContent>{
-  &quot;text&quot;: &quot;{\n\&quot;addressStreet2\&quot;:\&quot;Bandung\&quot;\n}&quot;,
+  &quot;text&quot;: &quot;{\n  \t\&quot;addressStreet2\&quot;:\&quot;Jl. Petojo Sabangan 3, No. 23\&quot;,\n  \&quot;workEmail\&quot;:\&quot;Cilsy@email.com\&quot;,\n  \&quot;otherEmail\&quot;:\&quot;sakura.kinomoto@email.com\&quot;\n}&quot;,
   &quot;contentType&quot;: &quot;application/json&quot;,
   &quot;charset&quot;: &quot;UTF-8&quot;
 }</httpBodyContent>
@@ -27,13 +27,13 @@
       <matchCondition>equals</matchCondition>
       <name>Authorization</name>
       <type>Main</type>
-      <value>bearer 85a8ff2923cbdcffd4dc6cb2786b2855a4f87163</value>
+      <value>bearer 235f3227845f45496ec0437f71b777b2487dc168</value>
    </httpHeaderProperties>
    <katalonVersion>7.7.2</katalonVersion>
    <maxResponseSize>-1</maxResponseSize>
    <migratedVersion>5.4.1</migratedVersion>
    <restRequestMethod>PUT</restRequestMethod>
-   <restUrl>http://34.123.127.154/symfony/web/index.php/api/v1/employee/21/contact-detail</restUrl>
+   <restUrl>http://34.123.127.154/symfony/web/index.php/api/v1/employee/19/contact-detail</restUrl>
    <serviceType>RESTful</serviceType>
    <soapBody></soapBody>
    <soapHeader></soapHeader>
@@ -54,6 +54,7 @@ import internal.GlobalVariable as GlobalVariable
 
 RequestObject request = WSResponseManager.getInstance().getCurrentRequest()
 
-ResponseObject response = WSResponseManager.getInstance().getCurrentResponse()</verificationScript>
+ResponseObject response = WSResponseManager.getInstance().getCurrentResponse()
+</verificationScript>
    <wsdlAddress></wsdlAddress>
 </WebServiceRequestEntity>

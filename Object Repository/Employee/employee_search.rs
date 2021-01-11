@@ -9,12 +9,8 @@
    <connectionTimeout>-1</connectionTimeout>
    <followRedirects>false</followRedirects>
    <httpBody></httpBody>
-   <httpBodyContent>{
-  &quot;text&quot;: &quot;{\n  \&quot;id\&quot;:\&quot;7\&quot;,\n  \&quot;date\&quot;:\&quot;2021-01-11\&quot;,\n  \&quot;reason\&quot;:\&quot;Test API\&quot;\n}&quot;,
-  &quot;contentType&quot;: &quot;application/json&quot;,
-  &quot;charset&quot;: &quot;UTF-8&quot;
-}</httpBodyContent>
-   <httpBodyType>text</httpBodyType>
+   <httpBodyContent></httpBodyContent>
+   <httpBodyType></httpBodyType>
    <httpHeaderProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
@@ -27,13 +23,13 @@
       <matchCondition>equals</matchCondition>
       <name>Authorization</name>
       <type>Main</type>
-      <value>bearer 85a8ff2923cbdcffd4dc6cb2786b2855a4f87163</value>
+      <value>bearer 1175bc2143be3959c914896594d819f5c52bdda6</value>
    </httpHeaderProperties>
    <katalonVersion>7.7.2</katalonVersion>
    <maxResponseSize>-1</maxResponseSize>
    <migratedVersion>5.4.1</migratedVersion>
    <restRequestMethod>GET</restRequestMethod>
-   <restUrl>http://34.123.127.154/symfony/web/index.php/api/v1/employee/search?name=Sakura</restUrl>
+   <restUrl>http://34.123.127.154/symfony/web/index.php/api/v1/employee/search?code=0012</restUrl>
    <serviceType>RESTful</serviceType>
    <soapBody></soapBody>
    <soapHeader></soapHeader>
@@ -54,6 +50,7 @@ import internal.GlobalVariable as GlobalVariable
 
 RequestObject request = WSResponseManager.getInstance().getCurrentRequest()
 
-ResponseObject response = WSResponseManager.getInstance().getCurrentResponse()</verificationScript>
+ResponseObject response = WSResponseManager.getInstance().getCurrentResponse()
+</verificationScript>
    <wsdlAddress></wsdlAddress>
 </WebServiceRequestEntity>

@@ -23,7 +23,7 @@
       <matchCondition>equals</matchCondition>
       <name>Authorization</name>
       <type>Main</type>
-      <value>Bearer 3964f1e47374d2c8e490e9aad829152ad7951850</value>
+      <value>Bearer 1175bc2143be3959c914896594d819f5c52bdda6</value>
    </httpHeaderProperties>
    <katalonVersion>7.7.2</katalonVersion>
    <maxResponseSize>-1</maxResponseSize>
