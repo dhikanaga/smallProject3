@@ -6,12 +6,22 @@
    <defaultProfile>true</defaultProfile>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'Bearer 963bf4b3f6812682e7e3539857c38d754cb75d77'</initValue>
+      <initValue>'http://34.123.127.154/symfony/web/index.php'</initValue>
+      <name>baseURL</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'bearer a71357c8c74213e83bcfcc80b80a98201527bdb9'</initValue>
       <name>access_token</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'http://34.123.127.154/symfony/web/index.php'</initValue>
-      <name>baseURL</name>
+      <initValue>'20'</initValue>
+      <name>employee_id</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>1</initValue>
+      <name>sequenceNumber</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>

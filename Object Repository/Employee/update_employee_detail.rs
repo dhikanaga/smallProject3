@@ -10,7 +10,7 @@
    <followRedirects>false</followRedirects>
    <httpBody></httpBody>
    <httpBodyContent>{
-  &quot;text&quot;: &quot;{\n  \&quot;id\&quot;:\&quot;19\&quot;,\n  \&quot;middleName\&quot;:\&quot;Bambang\&quot;,\n  \&quot;dob\&quot;:\&quot;1995-03-27\&quot;,\n  \&quot;gender\&quot;:\&quot;F\&quot;\n}&quot;,
+  &quot;text&quot;: &quot;{\n  \n  \&quot;middleName\&quot;:\&quot;Rahasia\&quot;,\n  \&quot;dob\&quot;:\&quot;1995-03-27\&quot;,\n  \&quot;gender\&quot;:\&quot;F\&quot;\n}&quot;,
   &quot;contentType&quot;: &quot;application/json&quot;,
   &quot;charset&quot;: &quot;UTF-8&quot;
 }</httpBodyContent>
@@ -33,7 +33,7 @@
    <maxResponseSize>-1</maxResponseSize>
    <migratedVersion>5.4.1</migratedVersion>
    <restRequestMethod>PUT</restRequestMethod>
-   <restUrl>${GlobalVariable.baseURL}/api/v1/employee/19</restUrl>
+   <restUrl>${GlobalVariable.baseURL}/api/v1/employee/${GlobalVariable.employee_id}</restUrl>
    <serviceType>RESTful</serviceType>
    <soapBody></soapBody>
    <soapHeader></soapHeader>
@@ -54,6 +54,7 @@ import internal.GlobalVariable as GlobalVariable
 
 RequestObject request = WSResponseManager.getInstance().getCurrentRequest()
 
-ResponseObject response = WSResponseManager.getInstance().getCurrentResponse()</verificationScript>
+ResponseObject response = WSResponseManager.getInstance().getCurrentResponse()
+</verificationScript>
    <wsdlAddress></wsdlAddress>
 </WebServiceRequestEntity>

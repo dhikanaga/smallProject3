@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebServiceRequestEntity>
    <description></description>
-   <name>save_employee</name>
+   <name>update_employee_dependents</name>
    <tag></tag>
-   <elementGuidId>43046af1-0902-4996-917b-99c6b81e77ca</elementGuidId>
+   <elementGuidId>2cb352cb-61d8-463c-9c16-b49d641df97d</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <connectionTimeout>-1</connectionTimeout>
    <followRedirects>false</followRedirects>
    <httpBody></httpBody>
    <httpBodyContent>{
-  &quot;text&quot;: &quot;{\n  \&quot;firstName\&quot;:\&quot;Wisnu\&quot;,\n  \&quot;middleName\&quot;:\&quot;Adji\&quot;,\n  \&quot;lastName\&quot;:\&quot;Amrulloh\&quot;\n}&quot;,
+  &quot;text&quot;: &quot;{\n  \&quot;relationship\&quot;:\&quot;Aunt\&quot;,\n  \&quot;sequenceNumber\&quot;:\&quot;${GlobalVariable.sequenceNumber}\&quot;\n}&quot;,
   &quot;contentType&quot;: &quot;application/json&quot;,
   &quot;charset&quot;: &quot;UTF-8&quot;
 }</httpBodyContent>
@@ -32,8 +32,8 @@
    <katalonVersion>7.7.2</katalonVersion>
    <maxResponseSize>-1</maxResponseSize>
    <migratedVersion>5.4.1</migratedVersion>
-   <restRequestMethod>POST</restRequestMethod>
-   <restUrl>${GlobalVariable.baseURL}/api/v1/employee/20</restUrl>
+   <restRequestMethod>PUT</restRequestMethod>
+   <restUrl>${GlobalVariable.baseURL}/api/v1/employee/${GlobalVariable.employee_id}/dependent</restUrl>
    <serviceType>RESTful</serviceType>
    <soapBody></soapBody>
    <soapHeader></soapHeader>
@@ -54,8 +54,6 @@ import internal.GlobalVariable as GlobalVariable
 
 RequestObject request = WSResponseManager.getInstance().getCurrentRequest()
 
-ResponseObject response = WSResponseManager.getInstance().getCurrentResponse()
-
-</verificationScript>
+ResponseObject response = WSResponseManager.getInstance().getCurrentResponse()</verificationScript>
    <wsdlAddress></wsdlAddress>
 </WebServiceRequestEntity>

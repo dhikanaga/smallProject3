@@ -10,7 +10,7 @@
    <followRedirects>false</followRedirects>
    <httpBody></httpBody>
    <httpBodyContent>{
-  &quot;text&quot;: &quot;{\n  \t\&quot;id\&quot;:\&quot;21\&quot;,\n\t\&quot;sequenceNumber\&quot;:\&quot;1\&quot;\n}&quot;,
+  &quot;text&quot;: &quot;{\n\t\&quot;sequenceNumber\&quot;:\&quot;${GlobalVariable.sequenceNumber}\&quot;\n}&quot;,
   &quot;contentType&quot;: &quot;application/json&quot;,
   &quot;charset&quot;: &quot;UTF-8&quot;
 }</httpBodyContent>
@@ -33,7 +33,7 @@
    <maxResponseSize>-1</maxResponseSize>
    <migratedVersion>5.4.1</migratedVersion>
    <restRequestMethod>DELETE</restRequestMethod>
-   <restUrl>${GlobalVariable.baseURL}/api/v1/employee/21/dependent</restUrl>
+   <restUrl>${GlobalVariable.baseURL}/api/v1/employee/${GlobalVariable.employee_id}/dependent</restUrl>
    <serviceType>RESTful</serviceType>
    <soapBody></soapBody>
    <soapHeader></soapHeader>
