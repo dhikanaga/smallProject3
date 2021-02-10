@@ -36,11 +36,11 @@ String id = parsedJson1.id
 
 GlobalVariable.employee_id = id
 
-response2 = WS.sendRequest(findTestObject('Employee/employee_detail'))
+response2 = WS.sendRequest(findTestObject('Employee/Detail/employee_detail'))
 
 WS.verifyElementPropertyValue(response2, 'data.employeeId', GlobalVariable.employee_id)
 
-response3 = WS.sendRequest(findTestObject('Employee/save_employee_dependents'))
+response3 = WS.sendRequest(findTestObject('Employee/Dependents/save_employee_dependents'))
 
 WS.verifyElementPropertyValue(response3, 'success', 'Successfully Saved')
 
@@ -50,11 +50,11 @@ String number = parsedJson2.sequenceNumber
 
 GlobalVariable.sequenceNumber = number
 
-response4 = WS.sendRequest(findTestObject('Employee/update_employee_dependents'))
+response4 = WS.sendRequest(findTestObject('Employee/Dependents/update_employee_dependents'))
 
 WS.verifyElementPropertyValue(response4, 'success', 'Successfully Updated')
 
-response5 = WS.sendRequest(findTestObject('Employee/delete_employee_dependents'))
+response5 = WS.sendRequest(findTestObject('Employee/Dependents/delete_employee_dependents'))
 
 WS.verifyElementPropertyValue(response5, 'success', 'Successfully Deleted')
 

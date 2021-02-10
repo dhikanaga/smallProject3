@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_delete_employee_custom_field</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>3437cc65-1306-4156-8a88-fc297e11f5c7</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_delete_employee_education</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b78807cd-b3e6-4772-9fb4-139bcbd6d4d9</testCaseGuid>
+</TestCaseEntity>
